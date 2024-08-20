@@ -1,5 +1,6 @@
-from project.parser.sanitize import sanitize
-from project.parser.split_by_and import split_by_and
+from parser.grammar.get_verb import get_verb
+from parser.sanitize import sanitize
+from shared.split import split_by_and
 
 
 def _parse(command: str) -> str:

@@ -1,6 +1,8 @@
-from project.parser.sanitize import sanitize
+from parser.sanitize import sanitize
+import unittest
 
 
-# sanitize should make strings lowercase
-def test_lower():
-    assert sanitize("TeSt TEST") == "test test"
+class TestSanitize(unittest.TestCase):
+    # sanitize should make strings lowercase
+    def test_lower(self):
+        assert sanitize("TeSt TEST") == "test test"

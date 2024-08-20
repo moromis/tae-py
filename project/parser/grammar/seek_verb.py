@@ -1,5 +1,5 @@
 from typing import Callable
-from project.parser.grammar.verbs import STANDARD_VERBS
+from parser.grammar.verbs import STANDARD_VERBS
 
 
 def seek_verb(verb: str) -> Callable:

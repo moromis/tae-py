@@ -1,0 +1,16 @@
+{
+    "python.analysis.autoImportCompletions": true,
+    "python.testing.autoTestDiscoverOnSaveEnabled": true,
+    "python.testing.unittestArgs": [
+        "-v",
+        "-s",
+        ".",
+        "-p",
+        "test*.py"
+    ],
+    "python.testing.unittestEnabled": true,
+    // "python.testing.pytestArgs": [
+    //     "tests"
+    // ],
+    // "python.testing.pytestEnabled": true
+}

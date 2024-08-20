@@ -1,4 +1,4 @@
-from project.parser.grammar.seek_verb import seek_verb
+from parser.grammar.seek_verb import seek_verb
 
 
 def get_verb(command: list[str]) -> str:

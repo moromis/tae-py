@@ -1,9 +1,9 @@
-from project.parser.grammar.seek_verb import seek_verb
-from unittest.mock import patch
+from parser.grammar.seek_verb import seek_verb
+import unittest
 
 
-def test_seek_verb():
-    with patch("project.parser.grammar.verbs") as verbs:
+class TestSeekVerb(unittest.TestCase):
+    def test_seek_verb(self):
         # if the verb is in our library of verbs, then it should return something
         verb = seek_verb("look")
         assert verb != None
