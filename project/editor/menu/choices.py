@@ -5,7 +5,7 @@ from editor.new.room import new_room
 from editor.save import save_game
 
 
-COMMANDS = {
+CHOICES = {
     "new": {"room": new_room, "item": new_item},
     "edit": {"room": edit_room, "item": edit_item},
     "save": save_game,
